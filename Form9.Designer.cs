@@ -1,0 +1,145 @@
+﻿namespace WindowsFormsApp1
+{
+    partial class Form9
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.loan = new System.Windows.Forms.Button();
+            this.Back = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(102, 45);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(114, 20);
+            this.textBox1.TabIndex = 512;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(23, 45);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.TabIndex = 511;
+            this.label1.Text = "Enter Barcode";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(233, 27);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(221, 63);
+            this.richTextBox1.TabIndex = 510;
+            this.richTextBox1.Text = "";
+            // 
+            // loan
+            // 
+            this.loan.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.loan.ForeColor = System.Drawing.Color.Red;
+            this.loan.Location = new System.Drawing.Point(35, 107);
+            this.loan.Margin = new System.Windows.Forms.Padding(2);
+            this.loan.Name = "loan";
+            this.loan.Size = new System.Drawing.Size(139, 46);
+            this.loan.TabIndex = 509;
+            this.loan.Text = "loan";
+            this.loan.UseVisualStyleBackColor = false;
+            this.loan.Click += new System.EventHandler(this.loan_Click);
+            // 
+            // Back
+            // 
+            this.Back.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Back.ForeColor = System.Drawing.Color.Red;
+            this.Back.Location = new System.Drawing.Point(281, 107);
+            this.Back.Margin = new System.Windows.Forms.Padding(2);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(139, 46);
+            this.Back.TabIndex = 508;
+            this.Back.Text = "Back";
+            this.Back.UseVisualStyleBackColor = false;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(102, 77);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(114, 20);
+            this.textBox2.TabIndex = 514;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 77);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 13);
+            this.label2.TabIndex = 513;
+            this.label2.Text = "Enter your id";
+            // 
+            // Form9
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.fwfefef;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(465, 181);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.loan);
+            this.Controls.Add(this.Back);
+            this.MaximumSize = new System.Drawing.Size(481, 220);
+            this.MinimumSize = new System.Drawing.Size(481, 220);
+            this.Name = "Form9";
+            this.Text = "Book loan";
+            this.Load += new System.EventHandler(this.Form9_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button loan;
+        private System.Windows.Forms.Button Back;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+    }
+}
